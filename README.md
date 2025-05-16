@@ -26,7 +26,7 @@
 ```
 conda create -n EWMBench python=3.10.16
 conda activate EWMBench
-git clone --recursive https://github.com/AgibotTech/EWMBench
+git clone --recursive https://github.com/AgibotTech/EWMBench.git
 cd EWMBench
 pip install -r requirements.txt
 pip install git+https://github.com/openai/CLIP.git
