@@ -82,7 +82,7 @@ gt_dataset/
 - **Generated Samples**
 
 ```
-generated_samples/
+{xxx}_dataset/
 ├── task_1/
 │   ├── episode_1/
 │   │   ├── 1/
@@ -98,13 +98,14 @@ generated_samples/
 └── ...
 ```
 
+Note: the dataset folder name should end with '_dataset'.
+
 ### Data Preprocessing 
 
 To preprocess the inference data, use the following command:
 
 ```
-cd /path/to/ewmbm
-bash ./EWMBench/processing.sh ./config.yaml
+bash processing.sh ./config.yaml
 ```
 
 Note: Ground truth detection must be performed on first run.
@@ -139,7 +140,7 @@ gt_dataset/
 - **Generated Samples**
 
 ```
-generated_samples/
+{xxx}_dataset/
 ├── task_1/
 │   ├── episode_1/
 │   │   ├── 1/
@@ -174,8 +175,7 @@ generated_samples/
 2. To run evaluation tasks:
 
 ```
-cd /path/to/ewmbm
-python /path/to/ewmbm/evaluate.py --dimension 'semantics' 'trajectory_consistency' --config ./config.yaml
+python evaluate.py --dimension 'semantics' 'trajectory_consistency' --config ./config.yaml
 ```
 
 Available dimensions include:
