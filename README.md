@@ -35,7 +35,7 @@ pip install git+https://github.com/openai/CLIP.git
 
 ---
 
-### Pre_trained Weights
+### Pretrained Weights
 
 1. Download the official Qwen2.5 checkpoint from [Qwen2.5](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) , and the tool of Qwen2.5 come from [Qwen2.5-tool](https://github.com/QwenLM/Qwen2.5-VL/tree/main/qwen-vl-utils) and modify to adapt our algorithm.
 
@@ -50,7 +50,7 @@ pip install git+https://github.com/openai/CLIP.git
 ---
 
 
-### Data Preparation
+### Data Downloading
 1. Download the dataset from [hugging face](https://huggingface.co/datasets/agibot-world/EWMBench)
 2. Move the download dataset to ./data
 
