@@ -5,7 +5,9 @@
 ![Pipeline](./picture/pipeline.jpg)
 ![dataset](./picture/dataset.jpg)
 
- <a href='https://arxiv.org/abs/2505.09694'><img src='https://img.shields.io/badge/arXiv-2505.09694-b31b1b.svg'></a> &nbsp; <a href='https://huggingface.co/agibot-world/EWMBench-model'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Weight-blue'></a> &nbsp;
+ <a href='https://arxiv.org/abs/2505.09694'><img src='https://img.shields.io/badge/arXiv-2505.09694-b31b1b.svg'></a> &nbsp; <a href='https://huggingface.co/agibot-world/EWMBench-model'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Weight-blue'></a> &nbsp; <a href=' https://huggingface.co/datasets/agibot-world/EWMBench
+'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data-blue'></a> &nbsp;
+
 
 </div>
 
@@ -48,16 +50,9 @@ pip install git+https://github.com/openai/CLIP.git
 ---
 
 
-### Data Download
-
-```
-cd /path/to/ewmbm
-mkdir data
-pip install datasets
-datasets-cli download agibot-world/EWMBench
-#You need to download our dataset from huggingface to /data
-wget https://huggingface.co/datasets/your/dataset/name/files/data.zip -P /data
-```
+### Data Preparation
+1. Download the dataset from [hugging face](https://huggingface.co/datasets/agibot-world/EWMBench)
+2. Move the download dataset to ./data
 
 Our ground truth data is stored in the `gt_dataset` folder. This folder contains the standard datasets used to verify model accuracy.
 
