@@ -104,7 +104,7 @@ To preprocess the inference data, use the following command:
 
 ```
 cd /path/to/ewmbm
-bash ./EWMBench/processing.sh ./ewmbm/config.yaml
+bash ./EWMBench/processing.sh ./config.yaml
 ```
 
 Note: Ground truth detection must be performed on first run.
