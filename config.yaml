@@ -5,7 +5,7 @@ model_name: test       # Name of the dataset to be evaluated.
 
 data:
   gt_path: ./clean_picture/gt_dataset            # Path to the ground-truth dataset directory.
-  val_base: ./clean_picture/test_dataset       # Path to the base directory of the dataset to be evaluated.
+  val_base: ./clean_picture/DATANAME_dataset       # Path to the base directory of the dataset to be evaluated.
 
 save_path: ./output         # Path to save evaluation results and temporary files.
 
