@@ -186,7 +186,3 @@ Available dimensions include:
 Your results save as .csv file.
 
 
-
-## License
-
-All the data and code within this repo are under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
