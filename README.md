@@ -5,10 +5,6 @@
 ![Pipeline](./picture/pipeline.jpg)
 ![dataset](./picture/dataset.jpg)
 
- <a href='https://arxiv.org/abs/2505.09694'><img src='https://img.shields.io/badge/arXiv-2505.09694-b31b1b.svg'></a> &nbsp; <a href='https://huggingface.co/agibot-world/EWMBench-model'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Weight-blue'></a> &nbsp; <a href=' https://huggingface.co/datasets/agibot-world/EWMBench
-'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data-blue'></a> &nbsp;
-
-
 </div>
 
 **Embodied World Model Benchmark (EWMBM)** is a benchmark framework specifically designed to evaluate **Embodied World Models (EWMs)**, aiming to assess the performance of text-driven video generation models in embodied tasks. EWMBM systematically evaluates the **physical plausibility** and **task coherence** of generated content across three key dimensions: **visual scene consistency**, **motion correctness**, and **semantic alignment**. Compared to traditional perceptual metrics, EWMBM focuses more on the **practical usability** and **rationality** of generation results within embodied contexts. It is accompanied by a **multi-dimensional evaluation toolkit** and a **high-quality, diverse dataset**, providing insights into the limitations of current methods and driving progress toward the next generation of embodied intelligence models.
@@ -41,7 +37,7 @@ pip install git+https://github.com/openai/CLIP.git
 
 2. Download the [clip-vit-base-patch16](https://huggingface.co/openai/clip-vit-base-patch16) weight and [CLIP-vit-b-32](https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt) weight.
 
-3. Download [the our finetuned DINOv2 and YOLO-World](https://huggingface.co/agibot-world/EWMBench-model) weights.
+3. Download [the our finetuned DINOv2 and YOLO-World](xxx) weights.
 
 
 **We need to add the path of each weight to config.yaml.**
@@ -51,7 +47,7 @@ pip install git+https://github.com/openai/CLIP.git
 
 
 ### Data Downloading
-1. Download the dataset from [hugging face](https://huggingface.co/datasets/agibot-world/EWMBench)
+1. Download the dataset from [hugging face](xxx)
 2. Move the download dataset to ./data
 
 Our ground truth data is stored in the `gt_dataset` folder. This folder contains the standard datasets used to verify model accuracy.
@@ -189,18 +185,6 @@ Available dimensions include:
 
 Your results save as .csv file.
 
-
-## Citation
-
-Please consider citing our paper if our codes are useful:
-```bib
-@article{hu2025ewmbench,
-  title={EWMBench: Evaluating Scene, Motion, and Semantic Quality in Embodied World Models},
-  author={Hu, Yue and Huang, Siyuan and Liao, Yue and Chen, Shengcong and Zhou, Pengfei and Chen, Liliang and Yao, Maoqing and Ren, Guanghui},
-  journal={arXiv preprint arXiv:2505.09694},
-  year={2025}
-}
-```
 
 
 ## License
