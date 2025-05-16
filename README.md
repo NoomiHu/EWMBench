@@ -56,14 +56,9 @@ pip install git+https://github.com/openai/CLIP.git
 
 Our ground truth data is stored in the `gt_dataset` folder. This folder contains the standard datasets used to verify model accuracy.
 
-At the same time, we also provide test samples, which are located in the `test_dataset` folder. You can use these samples to test the performance of your algorithms or models.
+For your reference, we also provide a sample set of the generated results .
 
-- **Ground Truth Dataset Path**: `gt_dataset`
-- **Test Sample Path**: `test_dataset`
-
-We have provided official ground-truth and test datasets as described above. Please make sure to reference the files in these paths correctly to ensure smooth model training and evaluation.
-
-In addition to the official datasets, you may also use your own data. However, it is important to follow the required directory structure outlined below to ensure compatibility.
+It is important to follow the required directory structure outlined below to ensure compatibility.
 
 - **Ground Truth Data** 
 
