@@ -1,7 +1,4 @@
 # 
-submodel/dinov2/
-submodel/CLIP/
-submodel/flash_attn-2.5.8/
 
 clean_picture/
 ckpt/
